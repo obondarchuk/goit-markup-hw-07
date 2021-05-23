@@ -1,0 +1,16 @@
+.block--header-bg {
+  background-color: var(--accent-cl);
+}
+.page-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+.page-header__nav {
+  margin-right: auto;
+}
+.page-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,YAAY;EACrB,cAAc,EAAE,IAAI;CACrB;;AACD,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,YAAY;EACrB,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "../sass/components/boxxs.scss"
+    ],
+    "names": [],
+    "file": "boxxs.css"
+}

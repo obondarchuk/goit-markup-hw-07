@@ -1,0 +1,118 @@
+.title-btn {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: var(--accent-cl);
+  height: 50px;
+  width: 200px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.title-btn:hover,
+.title-btn:focus {
+  color: var(--accent-cl);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border: 0;
+  border-radius: 4px;
+}
+.button__icon {
+  width: 70px;
+  height: 70px;
+}
+.client__button {
+  flex-basis: calc((100% - 6 * 30px) / 6);
+  text-align: center;
+  width: 170px;
+  height: 92px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  background-color: var(--accent-cl);
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-radius: 4px;
+  border-color: #afb1b8;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client__button:hover,
+.client__button:focus {
+  border-color: var(--alt-cl);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client__button:hover .client__icon,
+.client__button:focus .client__icon {
+  fill: var(--alt-cl);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__btn {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: var(--accent-cl);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal__btn:hover,
+.modal__btn:focus {
+  color: var(--accent-cl);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-all {
+  width: 73px;
+}
+.button-web {
+  width: 128px;
+}
+.button-app {
+  width: 145px;
+}
+.button-design {
+  width: 103px;
+}
+.button-marketing {
+  width: 130px;
+}
+.portf__item-btn:hover,
+.portf__item-btn:focus {
+  color: var(--accent-cl);
+  background-color: var(--alt-cl);
+  box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+.btnportfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
