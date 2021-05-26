@@ -1,4 +1,4 @@
-.title-btn {
+.title__btn {
   cursor: pointer;
   background-color: #2196f3;
   color: var(--accent-cl);
@@ -11,8 +11,8 @@
   border-radius: 4px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.title-btn:hover,
-.title-btn:focus {
+.title__btn:hover,
+.title__btn:focus {
   color: var(--accent-cl);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -23,7 +23,7 @@
   border: 0;
   border-radius: 4px;
 }
-.button__icon {
+.second__button-icon {
   width: 70px;
   height: 70px;
 }
@@ -56,48 +56,48 @@
   fill: var(--alt-cl);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__btn {
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
+.client__icon {
+  fill: #afb1b8;
+  border-color: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about__menu-btn {
   cursor: pointer;
-  background-color: #2196f3;
-  color: var(--accent-cl);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 200px;
-  margin-top: 30px;
-  font-weight: 700;
+  font-family: var(--main-font);
+  color: var(--title-cl);
+  background-color: var(--team-bg);
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.62;
+  height: 38px;
   border: none;
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__btn:hover,
-.modal__btn:focus {
-  color: var(--accent-cl);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.about__button-all {
+  padding-left: 22px;
+  padding-right: 22px;
 }
-.button-all {
-  width: 73px;
+.about__button-web {
+  padding-left: 22px;
+  padding-right: 22px;
 }
-.button-web {
-  width: 128px;
+.about__button-app {
+  padding-left: 22px;
+  padding-right: 22px;
 }
-.button-app {
-  width: 145px;
+.about__button-design {
+  padding-left: 22px;
+  padding-right: 22px;
 }
-.button-design {
-  width: 103px;
+.about__button-marketing {
+  padding-left: 22px;
+  padding-right: 22px;
 }
-.button-marketing {
-  width: 130px;
-}
-.portf__item-btn:hover,
-.portf__item-btn:focus {
+.about__menu-btn:hover,
+.about__menu-btn:focus {
   color: var(--accent-cl);
   background-color: var(--alt-cl);
   box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.3);
@@ -105,6 +105,7 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn {
   display: flex;
   align-items: center;
@@ -115,4 +116,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about-team__portfolio-item:hover .overlay {
+  transform: translateY(0%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

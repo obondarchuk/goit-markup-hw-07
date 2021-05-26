@@ -1,43 +1,26 @@
 @import "./utils/variables";
+
 @import "./base/common";
-@import "./base/container";
-@import "./components/address";
+@import "./base/container.scss";
+@import "./base/block";
+@import "./base/cardset";
 
-@import "./layouts/header";
-@import "./components/logo";
-@import "./layouts/navigations";
+@import "./layouts/section";
+@import "./layouts/nav";
+@import "./layouts/logo";
+@import "./layouts/bordlane";
+@import "./layouts/items";
 
+@import "./components/page_header";
 @import "./components/menu";
-@import "./components/items";
+@import "./components/link";
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/block";
 @import "./components/titles";
-@import "./base/card-set";
-
-@import "./layouts/secondbg";
-@import "./components/buttons";
-@import "./layouts/teamwork";
-@import "./layouts/team";
-
 @import "./components/social-icons";
-@import "./components/socials";
-@import "./layouts/clients";
-@import "./layouts/footer";
-
-@import "./layouts/sections";
-
-@import "./components/boxxs";
-@import "./components/backdrop";
-
-@import "./components/emails";
-
-@import "./layouts/modals";
-.visually-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-@import "./layouts/checkbox";
-.form-field {
-  position: relative;
-}
-@import "./layouts/portfolio";
-@import "./layouts/products";
+@import "./components/teams";
+@import "./components/footer";
+@import "./components/backdrops";
+@import "./components/modals";
+@import "./components/overlay";

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,AAAC,CACT,OAAO,CAAE,YAAY,CACrB,cAAc,CAAE,IAAI,CACrB,AACD,AAAA,WAAW,AAAC,CACV,OAAO,CAAE,YAAY,CACrB,YAAY,CAAE,IAAI,CAClB,KAAK,CAAE,KAAK,CACb",
-    "sources": [
-        "../sass/components/boxxs.scss"
-    ],
-    "names": [],
-    "file": "boxxs.min.css"
-}
